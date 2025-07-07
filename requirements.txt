@@ -1,0 +1,9 @@
+Flask
+boto3
+kafka-python
+Flask-SQLAlchemy        # integrates SQLAlchemy into Flask
+Flask-Migrate           # handles migrations with Alembic
+SQLAlchemy              # core ORM (already a dependency of Flask-SQLAlchemy)
+psycopg2-binary         # PostgreSQL driver
+redis                   # Python Redis
+python-dotenv

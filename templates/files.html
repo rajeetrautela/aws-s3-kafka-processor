@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+  <head><title>Uploaded Files</title></head>
+  <body>
+    <h2>Files (from Redis)</h2>
+    <ul>
+      {% for file in files %}
+        <li>{{ file.file_name }}</li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
