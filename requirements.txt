@@ -1,5 +1,5 @@
 Flask
-boto3
+boto3                   #comment this out if you are using minio 
 kafka-python
 Flask-SQLAlchemy        # integrates SQLAlchemy into Flask
 Flask-Migrate           # handles migrations with Alembic
@@ -7,3 +7,6 @@ SQLAlchemy              # core ORM (already a dependency of Flask-SQLAlchemy)
 psycopg2-binary         # PostgreSQL driver
 redis                   # Python Redis
 python-dotenv
+requests                #used to make http requests
+psutil                  #used to check if any process running 
+minio                   #local substitude of AWS servcies, comment this if your using s3
