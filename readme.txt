@@ -110,6 +110,9 @@ services:
 
                     return 'Notification received', 200
                 except Exception as e:
+
+
+you can even remove .rdb which is for redis caching..
                     print(f"❌ Error parsing SNS message: {e}")
                     return 'Error parsing SNS message', 500
 
